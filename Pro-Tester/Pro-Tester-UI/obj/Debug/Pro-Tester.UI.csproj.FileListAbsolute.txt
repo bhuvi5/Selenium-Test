@@ -28,3 +28,6 @@ D:\Projects\Pro-Tester\Pro-Tester-UI\obj\Debug\Pro-Tester-UI.pdb
 D:\Projects\Pro-Tester\Pro-Tester-UI\bin\Debug\geckodriver.exe
 D:\Projects\Pro-Tester\Pro-Tester-UI\bin\Debug\IEDriverServer-license.txt
 D:\Projects\Pro-Tester\Pro-Tester-UI\bin\Debug\IEDriverServer.exe
+D:\Selenium-Test\Pro-Tester\Pro-Tester-UI\bin\Debug\Pro-Tester-UI.exe.config
+D:\Selenium-Test\Pro-Tester\Pro-Tester-UI\obj\Debug\Pro-Tester-UI.exe
+D:\Selenium-Test\Pro-Tester\Pro-Tester-UI\obj\Debug\Pro-Tester-UI.pdb
