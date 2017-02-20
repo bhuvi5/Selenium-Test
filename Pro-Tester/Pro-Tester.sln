@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pro-Tester.UI", "Pro-Tester-UI\Pro-Tester.UI.csproj", "{F8667619-81A5-424E-BF62-1E2468080C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProTester.Driver", "ProTester.Driver\ProTester.Driver.csproj", "{40E271E7-6EDE-47D9-BEF4-5DDD2FE5EB5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProTester.TestSuite", "ProTester.TestSuite\ProTester.TestSuite.csproj", "{5DFE0FCD-051B-46B6-AB07-9B34CE875C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProTester.Utilities", "ProTester.Utilities\ProTester.Utilities.csproj", "{43E5FCBE-1E04-46C9-BAF0-47BCF302FE80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8667619-81A5-424E-BF62-1E2468080C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8667619-81A5-424E-BF62-1E2468080C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8667619-81A5-424E-BF62-1E2468080C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8667619-81A5-424E-BF62-1E2468080C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E271E7-6EDE-47D9-BEF4-5DDD2FE5EB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E271E7-6EDE-47D9-BEF4-5DDD2FE5EB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E271E7-6EDE-47D9-BEF4-5DDD2FE5EB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E271E7-6EDE-47D9-BEF4-5DDD2FE5EB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DFE0FCD-051B-46B6-AB07-9B34CE875C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DFE0FCD-051B-46B6-AB07-9B34CE875C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DFE0FCD-051B-46B6-AB07-9B34CE875C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DFE0FCD-051B-46B6-AB07-9B34CE875C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E5FCBE-1E04-46C9-BAF0-47BCF302FE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E5FCBE-1E04-46C9-BAF0-47BCF302FE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E5FCBE-1E04-46C9-BAF0-47BCF302FE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E5FCBE-1E04-46C9-BAF0-47BCF302FE80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
