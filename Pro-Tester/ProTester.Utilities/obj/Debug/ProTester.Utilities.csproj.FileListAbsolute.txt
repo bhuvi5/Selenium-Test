@@ -7,3 +7,12 @@ D:\Projects\Pro-Tester\ProTester.Utilities\bin\Debug\Excel.pdb
 D:\Projects\Pro-Tester\ProTester.Utilities\obj\Debug\ProTester.Utilities.csprojResolveAssemblyReference.cache
 D:\Projects\Pro-Tester\ProTester.Utilities\obj\Debug\ProTester.Utilities.dll
 D:\Projects\Pro-Tester\ProTester.Utilities\obj\Debug\ProTester.Utilities.pdb
+D:\Selenium-Test\Pro-Tester\ProTester.Utilities\bin\Debug\ProTester.Utilities.dll.config
+D:\Selenium-Test\Pro-Tester\ProTester.Utilities\bin\Debug\ProTester.Utilities.dll
+D:\Selenium-Test\Pro-Tester\ProTester.Utilities\bin\Debug\ProTester.Utilities.pdb
+D:\Selenium-Test\Pro-Tester\ProTester.Utilities\bin\Debug\Excel.dll
+D:\Selenium-Test\Pro-Tester\ProTester.Utilities\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Selenium-Test\Pro-Tester\ProTester.Utilities\bin\Debug\Excel.pdb
+D:\Selenium-Test\Pro-Tester\ProTester.Utilities\obj\Debug\ProTester.Utilities.csprojResolveAssemblyReference.cache
+D:\Selenium-Test\Pro-Tester\ProTester.Utilities\obj\Debug\ProTester.Utilities.dll
+D:\Selenium-Test\Pro-Tester\ProTester.Utilities\obj\Debug\ProTester.Utilities.pdb

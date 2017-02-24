@@ -16,7 +16,7 @@ namespace Pro_Tester_UI
 
         private void btn_execute_Click(object sender, EventArgs e)
         {
-            if (txt_testCaseID.Text != "")
+            if (!string.IsNullOrEmpty(txt_testCaseID.Text))
             {
                 bool testResult = ProTester.Driver.Script.RunScript(txt_testCaseID.Text, chk_Priority.Checked);
                 ProTester.Driver.Script.DriverEnd();

@@ -32,7 +32,7 @@ namespace ProTester.TestSuite
                 if (!string.IsNullOrEmpty(URL))
                 {
                     PropertiesCollection.driver.Navigate().GoToUrl(AppConfigurationSettings.ApplicationPath + URL);
-                    Thread.Sleep(5000);
+                    Thread.Sleep(8000);
                 }
 
                 List<Datacollection> controlDetailsDataColllection = PopulateInCollection(AppConfigurationSettings.ControlDetails, testCaseID);
@@ -49,6 +49,23 @@ namespace ProTester.TestSuite
                     string screenshot = ReadData(controlDetailsDataColllection, details, "Screenshot");
                     if (!string.IsNullOrEmpty(controllerType))
                     {
+                        if (controllerType == ControllerType.Frame.ToString())
+                        {
+                            //Then come out of the iFrame 
+                            PropertiesCollection.driver.SwitchTo().DefaultContent();
+                            //find the outer frame, and use switch to frame method
+                            IWebElement containerFrame = SeleniumMethods.FraneElement(controlName, propertyType);
+                            if (containerFrame != null)
+                                PropertiesCollection.driver.SwitchTo().Frame(containerFrame);
+                        }
+                        if (controllerType == ControllerType.InsideFrame.ToString())
+                        {
+                            //find the outer frame, and use switch to frame method
+                            IWebElement containerFrame = SeleniumMethods.FraneElement(controlName, propertyType);
+                            if (containerFrame != null)
+                                PropertiesCollection.driver.SwitchTo().Frame(containerFrame);
+                        }
+
                         if (controllerType == ControllerType.Text.ToString())
                         {
                             SeleniumMethods.EnterText(controlName, controllerValue, propertyType);
@@ -100,7 +117,8 @@ namespace ProTester.TestSuite
                         if (alert.ToLower() == "yes")
                         {
                             IAlert alertmsg = PropertiesCollection.driver.SwitchTo().Alert();
-                            alertmsg.Accept();
+                            if (alertmsg != null)
+                                alertmsg.Accept();
                             Thread.Sleep(1000);
                         }
 

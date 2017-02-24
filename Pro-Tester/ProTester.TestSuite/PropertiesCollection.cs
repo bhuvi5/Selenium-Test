@@ -22,8 +22,10 @@ namespace ProTester.TestSuite
         SelectiveDropdown,
         Dropdown,
         Map,
-        Search
-        
+        Search,
+        Frame,
+        InsideFrame
+
     }
 
     class PropertiesCollection

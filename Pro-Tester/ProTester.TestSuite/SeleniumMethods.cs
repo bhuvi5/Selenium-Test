@@ -77,6 +77,15 @@ namespace ProTester.TestSuite
                 new SelectElement(PropertiesCollection.driver.FindElement(By.CssSelector(element))).SelectByText(value);
         }
 
+        public static IWebElement FraneElement(string element, string elementtype)
+        {
+            if (elementtype == PropertyType.Id.ToString())
+                return PropertiesCollection.driver.FindElement(By.Id(element));
+            if (elementtype == PropertyType.Xpath.ToString())
+                return PropertiesCollection.driver.FindElement(By.XPath(element));
+            else return null;
+        }
+
         //Get Values
         public static string GetText(string element, PropertyType elementtype)
         {
